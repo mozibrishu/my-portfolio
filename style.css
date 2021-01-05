@@ -11,7 +11,7 @@ body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -19,7 +19,7 @@ body{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img{
@@ -35,6 +35,11 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 section{
     height: 500px;
@@ -48,4 +53,28 @@ section{
     color: white;
     font-weight: bold;
 
+}
+
+.single-experience{
+    box-shadow:  10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    padding-right: 15px;
+}
+
+#full-stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
 }
